@@ -1,6 +1,7 @@
-document.querySelector<HTMLDivElement>("#app").innerHTML = `
-    <div>
-        <h1>Vite + TypeScript + Tailwind CSS</h1>
-        
-    </div>
-`;
+import { PageCtrl } from "./rlib/timeline/t2025/july/generic-webpage/page";
+import "./style.css";
+let page = PageCtrl();
+
+document
+    .querySelector<HTMLDivElement>("#app")
+    ?.appendChild(page.comp.getElement());
