@@ -1,4 +1,4 @@
-import { PageCtrl } from "./rlib/timeline/t2025/july/generic-webpage/page";
+import { PageCtrl } from "./rlib/timeline/t2025/july/arc_view/page";
 import "./style.css";
 let page = PageCtrl();
 
